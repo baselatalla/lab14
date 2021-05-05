@@ -1,0 +1,286 @@
+@media only screen and (min-width:350px) and (max-width: 768px) {
+    body {
+      background-color: rgb(255, 190, 116);
+    }
+    main {
+        max-width: 90%;
+        margin: auto;
+    }
+    header{
+        display: flexbox;
+        text-align: center;
+    }
+    .h1{
+        background-color: chocolate;
+        padding: 40px;
+        color: aliceblue;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .resultField{
+        padding: 25px;
+        background-color: rgb(190, 178, 161,.5);
+        margin: 50px;
+        text-align: center;
+    }
+    .resultList{
+        border-radius: 20px;
+        margin-top: 30px;
+        border: .9px solid tomato;
+        padding: 20px;
+
+    }
+    .resultList img{
+        width: 20%;
+        height: auto;
+    }
+    .resultList h1{
+        background-color: sienna;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 8px;
+        text-overflow: clip;
+        color: aliceblue;
+        letter-spacing: 1px;
+        width: 90%;
+    }
+    .resultList h2{
+        background-color: sienna;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 8px;
+        width: 90%;
+    }
+    .resultList p{
+    }
+    #form{
+        font-size: large;
+        padding: 20px;
+        margin: 50px;
+        border: .9 solid tomato;
+        text-align: center;
+    }
+    #form #searchh{
+        width: 80%;
+        height: auto;
+
+    }
+    #searchh{
+        margin: 10px;
+    }
+    #form button{
+        width: 80%;
+        height: auto;
+        font-size: large;
+        margin: 20px;
+    }
+    input::placeholder {
+        color: rgb(37, 37, 36);
+        font-size: large;
+        padding: 4px;
+        text-align: center;
+    }
+    input[type="text"]{
+        font-size:24px;
+    }
+    
+    input[type=radio] {
+        background-color: rgb(222, 184, 135,.5);
+        border: 0px;
+        width: 25px;
+        height: 1em;
+    }
+    #goForearch{
+        line-height: auto;
+        margin: 50px;
+        width: 60%;
+        height: auto;
+        background-color: tan;
+        color: rgb(255, 255, 255);
+        font-size: large;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: white solid;
+    }
+    #goForearch1{
+        line-height: auto;
+        margin: 20px;
+        width: 60%;
+        height: auto;
+        background-color: tan;
+        color: rgb(255, 255, 255);
+        font-size: large;
+        padding: 20px;
+        border-radius: 20px;
+        border: white solid;
+    }
+    #add{
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        color: lavender;
+        background-color: black;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    footer{
+        clear: both;
+        background-color: rgba(88, 87, 87, 0.6);
+        text-align: center;
+        color:white;
+        height: 60px;
+    }
+    footer p{
+        position: relative; top: 15px;
+    }
+  }
+  @media only screen and (min-width:768px) {
+    body{
+        background-color: grey;
+    }
+  h1{
+      background-color: black;
+      color: aliceblue;
+      text-align: center;
+      font-size: larger;
+      padding: 30px;
+  }
+  header{
+    display: flexbox;
+    text-align: center;
+}
+  .resultField{
+        padding: 25px;
+        background-color: rgb(190, 178, 161,.5);
+        margin: 50px;
+        display: flexbox;
+        text-align: center;
+    }
+    .resultList{
+        border-radius: 20px;
+        margin: 60px;
+        border: .9px solid rgb(0, 0, 0);
+        padding: 20px;
+
+    }
+    .resultList img{
+        width: 20%;
+        height: auto ;
+    }
+    .resultList h1{
+        background-color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: larger;
+        border-radius: 20px;
+        margin: auto;
+        padding: 8px;
+        width: 50%;
+        color: white;
+        margin-top: 50px;
+        
+    }
+    .resultList h2{
+        margin: auto;
+        margin-top: 25px;
+        background-color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: large;
+        border-radius: 20px;
+        padding: 8px;
+        width: 50%;
+    }
+    .resultList p{
+        font-size: large;
+        margin: auto;
+        margin-top: 28px;
+    }
+    #form{
+        font-size: xx-large;
+        padding: 20px;
+        margin: 50px;
+        border: .9 solid rgb(2, 2, 2);
+        text-align: center;
+    }
+    #form #searchh{
+        width: 80%;
+        height: 50px;
+
+    }
+    #searchh{
+        margin: 10px;
+    }
+    #form button{
+        width: 80%;
+        height: 50px;
+        font-size: xx-large;
+        margin: 20px;
+    }
+    input::placeholder {
+        color: rgb(24, 24, 23);
+        font-size: xx-large;
+        padding: 4px;
+        text-align: center;
+      }
+    input[type=radio] {
+        
+        border: 0px;
+        width: 50px;
+        height: 2em;
+    }
+  #goForearch{
+    line-height: auto;
+    margin: 50px;
+    width: 60%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: white solid;
+    
+}
+#goForearch1{
+    line-height: auto;
+    margin: 20px;
+    width: 60%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 20px;
+    border: white solid;
+    border-radius: 20px;
+
+  }
+  #add{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: lavender;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+#updateBtn{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: lavender;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom:10px; 
+}
+footer{
+    
+    background-color: rgba(88, 87, 87, 0.6);
+    text-align: center;
+    color:white;
+    height: 60px;
+}
+footer p{
+    position: relative; top: 15px;
+}
+  }

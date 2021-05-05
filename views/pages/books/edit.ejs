@@ -1,0 +1,19 @@
+    
+
+                
+<form action="/deleteBook/<%= book.id %>?_method=delete" method='POST'>
+  <button id="add" class="resulitemtList">Delete Book</button>
+</form>
+
+  <button  id='updateBtn'>Update</button>
+ <section id='updateForm'>
+   <h3>Update Book Form</h3>
+   <form action="/updateBook/<%=book.id%>?_method=put" method="post">
+    <input name="title" value="<%= book.title %>" type="text">
+    <input name="authors" value="<%= book.authors %>" type="text">
+    <input name="image" value="<%= book.image %>" type="text">
+    <input name="isbn" value="<%= book.isbn %>" type="text">
+    <input name="description" value="<%= book.description %>" type="text">
+    <button id="add" type="submit">Update Book</button>
+    </form>
+ </section>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title class="h1">Search</title>
+</head>
+<body>
+    <header>
+        <form action="/searches" method="POST" id="form">
+            <label for="search"> Sreach Here !<br><input type="text" name="search" id="searchh" placeholder="Enter a Title or Author"> </label><br>
+            <br>
+            <label for="title">Title</label>
+            <input type="radio"  name="searchBy" value="intitle">
+            <label for="author">Author</label>
+            <input type="radio" name="searchBy"  value="inauthor"><br>
+            <button id="goForearch1" style="height: 90px;" >   Search the Google Book API </button>
+            </form>
+    </header>
+    <footer>
+        <p> &copy All rights reserved </p>
+    </footer>
+</body>
+</html>

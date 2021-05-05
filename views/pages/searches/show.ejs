@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>show result</title>
+</head>
+<body>
+<header>
+    <h1 class="h1">Book App</h1> <br><br>
+        <a href="/"><input type="button" id="goForearch" value="Home"></a>
+        <a href="/searches/new"><input type="button" id="goForearch1" value="search for book !"></a>
+        <hr>
+    </header>
+<main>
+    <h1 class="h1">Search Result</h1>
+
+    <div class="resultField">
+        <%  bookslistArr.forEach(book=>{ %>
+            <div class="resultList">
+                <img src="<%= book.image %>">
+                <h1><%= book.title %></h1>
+                <h2><%= book.authors %></h2>
+                <p><%= book.description %></p>
+                <br><br>
+                <form action="/books" method="POST">
+                    <input type="hidden" name="title" value="<%= book.title %>">
+                    <input type="hidden" name="authors" value="<%= book.authors %>">
+                    <input type="hidden" name="image" value="<%= book.image %>">
+                    <input type="hidden" name="isbn" value="<%= book.isbn %>">
+                    <input type="hidden" name="description"value="<%= book.description %>">
+                    <input type="submit"  value="Add This Book">
+                </form>
+
+            </div>
+            
+        <% }) %>
+       
+    </div>
+    
+</main>
+<footer>
+    <p> &copy All rights reserved </p>
+</footer>
+</body>
+</html>

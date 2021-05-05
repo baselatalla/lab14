@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: dimgray;
+    display: flexbox;
+}
+main{
+display:flexbox;
+flex-flow: column;
+text-align: center;
+justify-content: center;
+
+}
+
+
